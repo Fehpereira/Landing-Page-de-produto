@@ -51,5 +51,9 @@
   
   & .card:nth-child(5){
     grid-column: 3/5;
+
+    & .desktop-only {
+      top: 2rem;
+    }
   }
 }
